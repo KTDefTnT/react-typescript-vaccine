@@ -1,0 +1,19 @@
+@import '~@/global.scss';
+
+.list-container {
+  border-radius: 10px;
+  box-shadow: 0 5px 8px #cfcfcf;
+  .iconfont {
+    font-size: 50px;
+    color: $danger-color;
+  }
+  .text {
+    font-size: 28px;
+  }
+  .am-flexbox{
+    border-radius: 10px;
+  }
+  .am-grid-text {
+    font-size: 32px;
+  }
+}

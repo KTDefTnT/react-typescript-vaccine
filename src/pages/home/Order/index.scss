@@ -1,0 +1,25 @@
+@import '~@/global.scss';
+
+.container {
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+      color: $dark-font-color;
+    }
+
+    .more {
+      padding-left: 20px;
+      font-size: 28px;
+      color: $font-color;
+    }
+
+  }
+}

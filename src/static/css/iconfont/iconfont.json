@@ -1,0 +1,198 @@
+{
+  "id": "2928601",
+  "name": "疫苗",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11372775",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e8c6",
+      "unicode_decimal": 59590
+    },
+    {
+      "icon_id": "11647152",
+      "name": "设置",
+      "font_class": "setting",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "11651835",
+      "name": "意见汇总",
+      "font_class": "service",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "11653029",
+      "name": "计分详情",
+      "font_class": "order",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "11653949",
+      "name": "成员",
+      "font_class": "member",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "25723108",
+      "name": "我的小",
+      "font_class": "active_mine",
+      "unicode": "ec72",
+      "unicode_decimal": 60530
+    },
+    {
+      "icon_id": "25723109",
+      "name": "社区",
+      "font_class": "active_message",
+      "unicode": "ec73",
+      "unicode_decimal": 60531
+    },
+    {
+      "icon_id": "968468",
+      "name": "机构",
+      "font_class": "active_organ",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "1166005",
+      "name": "首页",
+      "font_class": "home",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "5701367",
+      "name": "我的小",
+      "font_class": "mine",
+      "unicode": "e941",
+      "unicode_decimal": 59713
+    },
+    {
+      "icon_id": "16480889",
+      "name": "社区",
+      "font_class": "message",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "25723106",
+      "name": "机构",
+      "font_class": "organ",
+      "unicode": "ec70",
+      "unicode_decimal": 60528
+    },
+    {
+      "icon_id": "25723107",
+      "name": "首页",
+      "font_class": "active_home",
+      "unicode": "ec71",
+      "unicode_decimal": 60529
+    },
+    {
+      "icon_id": "20384106",
+      "name": "病毒",
+      "font_class": "bingdu",
+      "unicode": "ec54",
+      "unicode_decimal": 60500
+    },
+    {
+      "icon_id": "20384130",
+      "name": "防护",
+      "font_class": "fanghu",
+      "unicode": "ec56",
+      "unicode_decimal": 60502
+    },
+    {
+      "icon_id": "20384135",
+      "name": "健康",
+      "font_class": "jiankang",
+      "unicode": "ec59",
+      "unicode_decimal": 60505
+    },
+    {
+      "icon_id": "20384144",
+      "name": "输液",
+      "font_class": "shuye",
+      "unicode": "ec5d",
+      "unicode_decimal": 60509
+    },
+    {
+      "icon_id": "20384147",
+      "name": "疫苗",
+      "font_class": "yimiao",
+      "unicode": "ec5f",
+      "unicode_decimal": 60511
+    },
+    {
+      "icon_id": "20384150",
+      "name": "消毒喷雾",
+      "font_class": "xiaodupenwu",
+      "unicode": "ec61",
+      "unicode_decimal": 60513
+    },
+    {
+      "icon_id": "20384151",
+      "name": "勤洗手",
+      "font_class": "qinxishou",
+      "unicode": "ec62",
+      "unicode_decimal": 60514
+    },
+    {
+      "icon_id": "20384153",
+      "name": "药物",
+      "font_class": "yaowu",
+      "unicode": "ec63",
+      "unicode_decimal": 60515
+    },
+    {
+      "icon_id": "20384154",
+      "name": "通风",
+      "font_class": "tongfeng",
+      "unicode": "ec64",
+      "unicode_decimal": 60516
+    },
+    {
+      "icon_id": "20384156",
+      "name": "抗体",
+      "font_class": "kangti",
+      "unicode": "ec65",
+      "unicode_decimal": 60517
+    },
+    {
+      "icon_id": "20384170",
+      "name": "药箱",
+      "font_class": "yaoxiang",
+      "unicode": "ec6a",
+      "unicode_decimal": 60522
+    },
+    {
+      "icon_id": "20384172",
+      "name": "急救",
+      "font_class": "jijiu",
+      "unicode": "ec6b",
+      "unicode_decimal": 60523
+    },
+    {
+      "icon_id": "20384177",
+      "name": "医院",
+      "font_class": "yiyuan",
+      "unicode": "ec6c",
+      "unicode_decimal": 60524
+    },
+    {
+      "icon_id": "20384182",
+      "name": "洗手液",
+      "font_class": "xishouye",
+      "unicode": "ec6e",
+      "unicode_decimal": 60526
+    }
+  ]
+}

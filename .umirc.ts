@@ -1,4 +1,7 @@
+import routes from './src/router/routes.config.js';
 import { defineConfig } from 'umi';
+// import './src/global.scss';
+const path = require('path');
 
 export default defineConfig({
   nodeModulesTransform: {
@@ -6,10 +9,10 @@ export default defineConfig({
   },
   // 配置路径别名
   alias: {
-    core: 'src/core',
-    services: 'src/services',
-    models: 'src/models',
-    types: 'src/@types'
+    core: path.resolve(__dirname, 'src/core'),
+    services: path.resolve(__dirname, 'src/services'),
+    models: path.resolve(__dirname, 'src/models'),
+    types: path.resolve(__dirname, 'src/@types'),
   },
   // 移动端适配像素
   extraPostCSSPlugins: [
@@ -29,10 +32,10 @@ export default defineConfig({
       landscape: false, //是否添加根据 landscapeWidth 生成的媒体查询条件 @media (orientation: landscape)
       landscapeUnit: 'vw', //横屏时使用的单位
       landscapeWidth: 1134, //横屏时使用的视口宽度
-    })
+    }),
   ],
-  routes: [
-    { path: '/', component: '@/pages/index' },
-  ],
+  routes,
+  sass: {},
+  headScripts: [{ src: 'https://at.alicdn.com/t/font_2928601_shtrf0sy4mi.js' }],
   fastRefresh: {},
 });

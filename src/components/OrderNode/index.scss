@@ -1,0 +1,86 @@
+@import '~@/global.scss';
+.order {
+  margin: 20px 30px;
+  border-radius: 10px;
+  filter: drop-shadow(0 3px 3px #cfcfcf);
+  background-image: 
+      radial-gradient(circle at calc(100% + 5px) 90px, transparent 0, transparent 20px, #fff 21px),
+      radial-gradient(circle at -5px 90px, transparent 0, transparent 20px, #fff 21px);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: right bottom, left top;
+  .itemHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0px 20px; // 虚线不超出
+    line-height: 50px;
+    border-bottom: 1px dashed $border-color;
+    .name, .vaccineName {
+      font-size: 32px;
+      font-weight: bold;
+      color: $dark-font-color;
+    }
+    .vaccineName {
+      font-size: 28px;
+    }
+    .type {
+      display: inline-block;
+      margin-left: 10px;
+      padding: 2px 16px;
+      line-height: 36px;
+      font-size: 12px;
+      color: $primary-color;
+      background: $background-color;
+      border-radius: 20px;
+    }
+  }
+
+  .content {
+    padding: 20px 40px 40px;
+    .deadLine {
+      font-size: 26px;
+      font-weight: bold;
+      color: $dark-font-color;
+      span {
+        display: inline-block;
+        padding-right: 4px;
+        font-size: 50px;
+        color: $primary-color;
+      }
+    }
+
+    .timeContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 20px 0px;
+      span {
+        display: inline-block;
+        padding: 8px;
+        font-size: 40px;
+        color: $primary-color;
+        background-color: #faf8fa;
+      }
+      .date {
+        margin-right: 40px;
+      }
+      .time {
+        letter-spacing: .2em;
+      }
+    }
+
+    .address {
+      margin-top: 10px;
+      font-size: 28px;
+      color: $font-color;
+      svg {
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+    }
+  }
+}

@@ -21,18 +21,25 @@
   },
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
+    "antd-mobile": "^2.3.4",
     "postcss-px-to-viewport": "^1.1.1",
     "react": "17.x",
     "react-dom": "17.x",
     "umi": "^3.5.20"
   },
   "devDependencies": {
+    "@types/classnames": "^2.3.1",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@umijs/plugin-sass": "^1.1.1",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.5.20",
+    "express": "^4.17.1",
     "lint-staged": "^10.0.7",
+    "mockjs": "^1.1.0",
+    "node-sass": "^6.0.1",
     "prettier": "^2.2.0",
+    "sass-loader": "^12.3.0",
     "typescript": "^4.1.2",
     "yorkie": "^2.0.0"
   }

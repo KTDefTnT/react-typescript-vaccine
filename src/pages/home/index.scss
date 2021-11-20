@@ -1,0 +1,54 @@
+@import '~@/global.scss';
+
+.container {
+  background: linear-gradient($background-color, #fff);
+
+  .ordering {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    overflow: hidden;
+    margin: 40px 30px;
+    padding: 40px 60px;
+    border-radius: 6px;
+    background-color: #718be0;
+    
+    .svg {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      padding: 20px;
+      border-radius: 100%;
+      box-sizing: content-box;
+      background: #415fd1;
+      border: 40px solid #5874d5;
+      outline: 40px solid #6782db;
+      svg {
+        margin-left: -22px;
+      }
+      svg:nth-child(2) {
+        position: absolute;
+        bottom: 10px;
+        left: 70px;
+      }
+    }
+    .content {
+      text-align: right;
+      font-size: 32px;
+      color: #fff;
+      .title {
+        svg {
+          margin-right: 10px;
+          vertical-align: middle;
+        }
+        letter-spacing: .05em;
+      }
+      .notice {
+        font-size: 24px;
+        margin-top: 10px;
+      }
+    }
+  }
+}

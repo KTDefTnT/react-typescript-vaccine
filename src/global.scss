@@ -1,0 +1,33 @@
+// @import '~@/static/css/iconfont/iconfont.css';
+
+$primary-color: #1fc7b0;
+$info-color: #ffcecd;
+$danger-color: #f87c7c;
+
+$dark-font-color: #020202;
+$font-color: #333;
+$light-font-color: #c3c9d3;
+
+$muted-font-color: #d2d3d7;
+$light-bg-color: #ebfef8;
+$background-color: #ecfffd;
+
+$border-color: #c3c9d3;
+
+.icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.type {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 2px 16px;
+  line-height: 36px;
+  font-size: 12px;
+  color: $primary-color;
+  background: $background-color;
+  border-radius: 20px;
+}

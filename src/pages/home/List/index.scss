@@ -1,0 +1,27 @@
+@import '~@/global.scss';
+
+.container {
+  padding: 20px 30px;
+  :global .am-grid {
+    border-radius: 10px;
+    .am-flexbox {
+      border-radius: 20px 20px 0px 0px;
+    }
+  }
+  .item {
+    width: 100px;
+    margin: 0 auto 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0.4vw 0.4vw 0.933vw #d9d9d9, -0.4vw -0.4vw 0.933vw #ffffff;
+
+    svg {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-65%, 10%);
+    }
+  }
+}
