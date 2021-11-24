@@ -8,6 +8,8 @@ interface SearchProps {
   onSubmit?: (val: string) => void;
   placeholder?: string;
   defaultValue?: string;
+  showLeft?: boolean;
+  showRight?: boolean;
 }
 
 const Search: React.FC<SearchProps> = ({
@@ -18,10 +20,12 @@ const Search: React.FC<SearchProps> = ({
   onSubmit,
   placeholder,
   defaultValue,
+  showLeft = true,
+  showRight = true,
 }) => {
   return (
     <div className={Styles.container}>
-      <div className={Styles.leftIcon}>左边</div>
+      {showLeft && <div className={Styles.leftIcon}>左边</div>}
       <div className={Styles.searchBar}>
         <SearchBar
           onClear={onClear}
@@ -33,7 +37,7 @@ const Search: React.FC<SearchProps> = ({
           defaultValue={defaultValue}
         />
       </div>
-      <div className={Styles.rightIcon}>有笔</div>
+      {showRight && <div className={Styles.rightIcon}>有笔</div>}
     </div>
   );
 };

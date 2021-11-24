@@ -31,3 +31,9 @@ $border-color: #c3c9d3;
   background: $background-color;
   border-radius: 20px;
 }
+
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

@@ -16,6 +16,11 @@ const routes = [
         hiddenNav: true,
       },
       {
+        path: '/organDetail',
+        component: '@/pages/organDetail/index',
+        title: '机构详情',
+      },
+      {
         path: '/message',
         component: '@/pages/message/index',
         title: '消息',

@@ -36,6 +36,6 @@ export default defineConfig({
   ],
   routes,
   sass: {},
-  headScripts: [{ src: 'https://at.alicdn.com/t/font_2928601_shtrf0sy4mi.js' }],
+  headScripts: [{ src: 'https://at.alicdn.com/t/font_2928601_k6x9rak96a.js' }],
   fastRefresh: {},
 });
