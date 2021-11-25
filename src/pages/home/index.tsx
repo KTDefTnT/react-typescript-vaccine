@@ -1,27 +1,28 @@
-import { getUserInfo } from '@/services/user';
 import List from './List';
 import Order from './Order';
 import SvgIcon from '@/components/SvgIcon';
 import SearchBar from '@/components/SearchBar';
-import { useEffect } from 'react';
 import Styles from './index.scss';
+import { connect } from 'umi';
+import { ConnectProps, ConnectState } from '@/@types/connect';
+import { UserModelState } from '@/@types/user';
 
-export default function IndexPage() {
+interface HomeProps extends ConnectProps {
+  user: UserModelState;
+}
+const HomePage: React.FC<HomeProps> = ({ user }) => {
+  const userInfo = user.userInfo;
+  console.log('user', userInfo);
+
   const onSubmit = (val: string) => {
     console.log('ccc', val);
   };
-
-  useEffect(() => {
-    getUserInfo().then((resp) => {
-      console.log('getUserInfo:', resp);
-    });
-  }, []);
 
   return (
     <div className={Styles.container}>
       <SearchBar placeholder="搜疫苗、科普、机构" onSubmit={onSubmit} />
       <List />
-      <Order />
+      {userInfo && !!userInfo.userId && <Order />}
       <div className={Styles.ordering}>
         <div className={Styles.svg}>
           <SvgIcon iconName="hpv" size={70} />
@@ -37,4 +38,6 @@ export default function IndexPage() {
       </div>
     </div>
   );
-}
+};
+
+export default connect(({ user }: ConnectState) => ({ user }))(HomePage);

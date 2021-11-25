@@ -42,11 +42,12 @@ export default {
     const { password, name } = req.body;
     if (password === '123456' && name === 'admin') {
       res.send({
-        status: 200,
+        status: 1,
         data: {
-          name: '莎士比亚',
+          name: '焦糖瓜子',
           icon: 'https://tva1.sinaimg.cn/large/00831rSTly1gdm7eok2oij301s01sgli.jpg',
           userId: '001',
+          phone: '1569877333',
         },
       });
     } else {

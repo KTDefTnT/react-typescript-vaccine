@@ -7,7 +7,7 @@ export interface UserInfoState {
   phone: string;
 }
 
-// 当前model注入到connect中的数据类型
+// 当前model注入到connect中的数据类型, 即state是被注入到connect的mapStateToProps参数对象中  参数名为 namespace
 export interface UserModelState {
   userInfo: UserInfoState;
 }

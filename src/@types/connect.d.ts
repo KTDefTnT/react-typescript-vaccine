@@ -4,7 +4,7 @@ import { UserModelState } from './user';
 // 全局state以及prop的定义
 export interface ConnectProps {
   dispatch?: Dispatch;
-  location?: Location;
+  location?: Location & { state: { from: string } };
 }
 
 export interface ConnectState {
